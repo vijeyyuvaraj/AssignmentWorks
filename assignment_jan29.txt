@@ -1,0 +1,35 @@
+1. Python program developed by
+    Guido van Rossom
+
+2. Python support
+    functional, object oriented and procedural programming.
+
+3. Yes python is case sensitive.
+
+4. extension of python fils is '.py'
+
+5. python is interpreted language.
+
+7. # is the char used for single line comment.
+
+8. function to get the python version
+    import platform
+    platform.python_version()
+
+9. Python supports to make anonymous functions using "lambda".
+
+10. pip - preferred installer program
+
+11. build in functions in python
+    len(), max(), type(), is()
+
+12. maximum length of python identifier - 79
+
+13. python is fast, cross platform language that supports number of open source libraries.
+
+14. memory in python is managed by private heap space.
+
+15. python installation - installing latest python interpreter from official site & adding python bin directory to user account in env var.
+
+16. yes indentation is required in python.
+
