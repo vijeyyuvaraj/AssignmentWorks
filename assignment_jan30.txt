@@ -1,0 +1,59 @@
+Q1:
+user_input = int(input("Enter the percentage: "))
+if user_input>90:
+    print("A")
+elif user_input>80:
+    print("B")
+elif user_input>=60:
+    print("C")
+else:
+    print("D")
+
+Q2:
+cost = int(input("Enter the bike price: "))
+if cost>100000:
+    print(cost*0.15)
+elif cost>500000:
+    print(cost*0.10)
+else:
+    print(cost*0.05)
+
+Q3:
+city = input("Enter  a city name: ")
+city_mountains = {"delhi":"red fort","agra":"taj mahal","jaipur":"jai mahal"}
+print(city_mountains[city])
+
+Q4:
+n = int(input("Enter a number: "))
+count = 0
+while n >= 10:
+    count += 1
+    n = n/3
+print(count)
+
+Q5:
+while loop can be used when we are not sure of the number of repetations.
+
+Q6:
+n = 10
+while n!=0:
+    print(" * ")
+    n = n - 1
+    o = n
+    while o!=0:
+        print(" | ",end=" ")
+        o = o - 1
+else:
+    print(" * ")
+
+Q7:
+n = 10
+while n!=0:
+    print(n)
+    n = n - 1
+
+Q8:
+n = 10
+while n!=0:
+    print(n)
+    n = n - 1
