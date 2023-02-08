@@ -1,4 +1,14 @@
+inputStr = "I want to become a Data Scientist."
+def strEncrypt(i):
+    i = ord(i)-96;
+    return chr((26-i)+97)
+def encrypt(i):
+    if i == ' ':
+        return '$'
+    elif i == '.':
+        return i
+    else:
+        return strEncrypt(str.lower(i))
 
-dict1 = {'Sport': 'Cricket' , 'Teams': ['India', 'Australia', 'England', 'South Africa', 'Sri Lanka', 'New Zealand']}
-print(dict1.items())
-
+for i in inputStr:
+    print(encrypt(i),end='')
